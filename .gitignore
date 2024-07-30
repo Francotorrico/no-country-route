@@ -1,36 +1,15 @@
-HELP.md
+# Ignorar archivos generados
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!mvnw
-!mvnw.cmd
-!.mvn/
-!**/src/main/**/target/
-!**/src/test/**/target/
-.env
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+*.log
+*.tmp
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
+# Ignorar configuraciones del IDE
+.idea/
 .vscode/
+
+# Ignorar otros archivos innecesarios
+*.md
+.git/
+.gitignore
+# Ignorar el archivo .env
+.env
